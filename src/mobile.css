@@ -1,0 +1,348 @@
+/* Мобильный интерфейс рассчитан на чтение у реального стола. */
+.mobile-settings {
+  display: none;
+}
+html {
+  scroll-padding-bottom: 90px;
+}
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+.modal {
+  overscroll-behavior: contain;
+}
+.profile-button,
+.profile-button > span,
+.report-person > div {
+  min-width: 0;
+}
+.report-person > div {
+  flex: 1;
+}
+.report-metrics,
+.course-counter {
+  font-variant-numeric: tabular-nums;
+}
+@media (max-width: 570px) {
+  .hero-seat {
+    top: 72% !important;
+  }
+}
+body.report-capture .sidebar,
+body.report-capture .topbar,
+body.report-capture .page-footer,
+body.report-capture .mobile-nav {
+  display: none;
+}
+body.report-capture .workspace {
+  margin-left: 0;
+}
+body.report-capture .main-content {
+  padding: 20px 16px;
+  max-width: 610px;
+}
+body.report-capture .workspace {
+  min-height: 100dvh;
+}
+@media (max-width: 760px) {
+  .mobile-settings {
+    display: inline-flex;
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .topbar-right {
+    gap: 8px;
+  }
+  .primary,
+  .secondary,
+  .icon-button {
+    min-height: 44px;
+  }
+  .mobile-nav > button {
+    font-size: 10px;
+  }
+  .profile-button {
+    font-size: 12px;
+  }
+  .lesson-content .content-source,
+  .content-note {
+    font-size: 11px;
+  }
+  .theory-text p {
+    font-size: 15px;
+    line-height: 1.95;
+  }
+  .lesson-content > p,
+  .terms-list p,
+  .hand-text {
+    font-size: 14px;
+  }
+  .lesson-content h3 {
+    font-size: 15px;
+  }
+  .teaching-note p {
+    font-size: 13px;
+  }
+  .question-title h3,
+  .trainer-stage .question-title h3 {
+    font-size: 15px;
+  }
+  .answer-option {
+    font-size: 13px;
+    min-height: 50px;
+  }
+  .answer-explanation {
+    font-size: 13px;
+  }
+  .lesson-tabs > button {
+    font-size: 12px;
+    min-height: 44px;
+  }
+  .lesson-tabs small {
+    font-size: 9px;
+  }
+  .lesson-page-heading > div > p {
+    font-size: 13px;
+  }
+  .back-link {
+    font-size: 12px;
+    min-height: 35px;
+  }
+  .lesson-row h3 {
+    font-size: 14px;
+  }
+  .lesson-row p {
+    font-size: 12px;
+  }
+  .lesson-row {
+    padding: 19px 2px;
+  }
+  .lesson-pagination button {
+    font-size: 11px;
+    min-height: 44px;
+  }
+  .search-box input {
+    font-size: 13px;
+  }
+  .search-box > span {
+    font-size: 10px;
+  }
+  .trainer-categories b {
+    font-size: 12px;
+  }
+  .trainer-categories > button {
+    min-width: 160px;
+    min-height: 50px;
+  }
+  .trainer-context {
+    font-size: 11px;
+  }
+  .trainer-toolbar {
+    font-size: 11px;
+  }
+  .trainer-toolbar .tiny-tag {
+    font-size: 9px;
+  }
+  .table-facts span {
+    font-size: 10px;
+  }
+  .table-facts {
+    gap: 8px 15px;
+  }
+  .table-facts b {
+    margin-left: 3px;
+  }
+  .trainer-stage .primary {
+    font-size: 12px;
+  }
+  .trainer-stage .inline-actions .content-source {
+    font-size: 10px;
+  }
+  .finish-lesson p {
+    font-size: 12px;
+  }
+  .solution-details summary {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+  .solution-details p {
+    font-size: 13px;
+  }
+  .timer-card h3 {
+    font-size: 12px;
+  }
+  .timer-buttons .secondary {
+    font-size: 12px;
+  }
+  .report-brand > span:last-child {
+    font-size: 10px;
+  }
+  .report-person > div > span {
+    font-size: 11px;
+  }
+  .report-course-tag {
+    font-size: 10px;
+  }
+  .report-title {
+    font-size: 15px;
+  }
+  .report-person h2 {
+    font-size: 22px;
+  }
+  .score-ring > span {
+    font-size: 10px;
+  }
+  .report-metrics span {
+    font-size: 10px;
+  }
+  .report-section h3 {
+    font-size: 14px;
+  }
+  .report-section p {
+    font-size: 12px;
+  }
+  .report-exam,
+  .report-exam b {
+    font-size: 10px;
+  }
+  .report-exam {
+    line-height: 1.7;
+  }
+  .report-footnote {
+    font-size: 9px;
+  }
+  .report-disclaimer {
+    font-size: 11px;
+  }
+  .report-actions button {
+    font-size: 11px;
+  }
+  .modal > p,
+  .settings-intro p,
+  .confirmation p {
+    font-size: 13px;
+  }
+  .modal .content-note {
+    font-size: 11px;
+  }
+  .profiles-list > button > span:nth-child(2) {
+    font-size: 14px;
+  }
+  .profiles-list small {
+    font-size: 11px;
+  }
+  .profile-form input {
+    font-size: 13px;
+  }
+  .field-label {
+    font-size: 12px;
+  }
+  .settings-action b {
+    font-size: 14px;
+  }
+  .settings-action small {
+    font-size: 12px;
+  }
+  .page-heading p {
+    font-size: 13px;
+  }
+  .greeting {
+    font-size: 11px;
+  }
+}
+@media (max-width: 570px) {
+  .course-card h3 {
+    font-size: 14px;
+  }
+  .course-card p {
+    font-size: 12px;
+    min-height: 55px;
+  }
+  .course-card {
+    grid-template-columns: 0.9fr 1.1fr;
+    column-gap: 16px;
+    padding: 23px 21px 19px;
+  }
+  .course-title {
+    font-size: 42px;
+  }
+  .level {
+    font-size: 11px;
+  }
+  .course-details,
+  .course-progress {
+    font-size: 11px;
+  }
+  .section-heading > span {
+    font-size: 11px;
+  }
+  .practice-strip h3 {
+    font-size: 15px;
+  }
+  .practice-strip p {
+    font-size: 12px;
+  }
+  .practice-strip .secondary {
+    font-size: 12px;
+  }
+  .privacy-line {
+    font-size: 11px;
+  }
+  .privacy-line > button {
+    font-size: 11px;
+  }
+  .continue-copy > p {
+    font-size: 12px;
+  }
+  .continue-panel {
+    min-height: 430px;
+  }
+  .lesson-kicker {
+    font-size: 10px;
+  }
+  .continue-actions .primary {
+    font-size: 12px;
+  }
+  .continue-actions > span {
+    font-size: 11px;
+  }
+  .lessons-heading h2 {
+    font-size: 17px;
+  }
+  .lessons-heading .text-button {
+    font-size: 11px;
+  }
+  .course-tabs > button {
+    font-size: 13px;
+  }
+  .report-controls > label {
+    font-size: 11px;
+  }
+  .segmented button {
+    font-size: 11px;
+  }
+  .report-controls {
+    gap: 8px;
+  }
+  .segmented button {
+    padding: 10px 8px;
+  }
+  .report-controls select {
+    font-size: 11px;
+  }
+  .lesson-tabs > button {
+    font-size: 11px;
+  }
+  .lesson-tabs {
+    gap: 6px;
+  }
+  .lesson-tabs small {
+    font-size: 8px;
+  }
+  body.report-capture .report-card {
+    padding-top: 22px;
+    padding-bottom: 20px;
+  }
+}
